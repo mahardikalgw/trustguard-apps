@@ -5,7 +5,6 @@ const PORT = 3001;
 
 app.get('/', (_req, res) => {
   res.send('Hello from Express API!');
-
 });
 
 app.listen(PORT, () => {

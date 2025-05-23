@@ -2,6 +2,13 @@
   "name": "api",
   "packageManager": "yarn@4.5.1",
   "scripts": {
-    "dev": "tsup index.ts --watch --onSuccess \"node dist/index.js\""
-  }
+    "dev": "tsup index.ts --watch --onSuccess \"node dist/index.js\"",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "eslint": "^9.27.0"
+  },
+  "type": "module"
 }
