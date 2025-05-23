@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
-import styles from "./page.module.css";
 
 export default function Home() {
   const heroRef = useRef(null);
